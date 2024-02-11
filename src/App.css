@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.weather-box {
+  padding: 70px;
+  text-align: center;
+  height: 300px;
+  width: 700px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.476);
+}
+
+.weather-box div {
+  margin-bottom: 20px;
+}
+
+
+.name {
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  
+}
+
+.temp {
+  font-size: 30px;
+  font-weight: 300px;
+  color: rgb(255, 195, 182);
+}
+
+.description {
+  font-size: 30px;
+  font-weight: 20px;
+  color: rgb(120, 240, 251);
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 700px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.548);
+  border-radius: 50px;
+}
+
+.button-group div Button {
+  margin-right: 20px;
+}
+
+body {
+  background: url("https://cdn.pixabay.com/photo/2017/05/20/20/22/clouds-2329680_1280.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.location-btn {
+  font-size: 15px;
+}
+.city-btn {
+  font-size: 15px;
+  text-align: center;
+}
