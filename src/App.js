@@ -14,11 +14,11 @@ import { ClipLoader } from 'react-spinners';
 
 function App() {
 
-  const [weather, setWeather] = useState(null);
+  let [weather, setWeather] = useState(null);
   const cities = ['Switzerland', 'Paris', 'New York', 'Saipan'];
-  const [city, setCity] = useState('');
-  const [loading, setLoading] = useState(false);
-  const [apiError, setApiError] = useState("");
+  let [city, setCity] = useState('');
+  let [loading, setLoading] = useState(false);
+  let [apiError, setApiError] = useState("");
   const API_KEY = process.env.REACT_APP_API_KEY;
 
   const getCurrentLocation = () => {
